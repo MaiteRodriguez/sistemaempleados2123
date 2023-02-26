@@ -8,6 +8,7 @@ mysql= MySQL()
 app.config['MYSQL_DATABASE_HOST']='localhost'
 app.config['MYSQL_DATABASE_USER']='root'
 app.config['MYSQL_DATABASE_PASSWORD']=''
+# password is not valid (env var should be set)
 app.config['MYSQL_DATABASE_DB']='sistema2123'
 mysql.init_app(app)
 
